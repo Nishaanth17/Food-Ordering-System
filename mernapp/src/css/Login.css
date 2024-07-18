@@ -1,0 +1,54 @@
+/* Login.css */
+
+.container {
+    max-width: 400px; /* Limit form width for better readability */
+    margin: 0 auto; /* Center align form */
+    padding: 2rem; /* Padding around form */
+    border: 1px solid #ccc; /* Border around form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Box shadow */
+    background-color: #fff; /* Background color */
+  }
+  
+  .form-label {
+    font-size: 1rem; /* Font size for form labels */
+    font-weight: bold; /* Bold font weight for form labels */
+  }
+  
+  .form-control {
+    width: 100%; /* Full width for form inputs */
+    padding: 0.75rem 1rem; /* Padding inside form inputs */
+    font-size: 1rem; /* Font size for form inputs */
+    border: 1px solid #ccc; /* Border around form inputs */
+    border-radius: 5px; /* Rounded corners for form inputs */
+    margin-bottom: 1rem; /* Space below form inputs */
+  }
+  
+  .form-text {
+    font-size: 0.875rem; /* Smaller font size for form text */
+    color: #6c757d; /* Text color for form text */
+  }
+  
+  .btn {
+    font-size: 1rem; /* Font size for buttons */
+    padding: 0.75rem 1.5rem; /* Padding inside buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    text-transform: uppercase; /* Uppercase text for buttons */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green background for success button */
+    border-color: #28a745; /* Green border color for success button */
+    color: #fff; /* White text color for success button */
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; /* Red background for danger button */
+    border-color: #dc3545; /* Red border color for danger button */
+    color: #fff; /* White text color for danger button */
+  }
+  
+  .btn:hover {
+    opacity: 0.8; /* Reduce opacity on button hover */
+  }
+  
